@@ -6,7 +6,6 @@ Codes for study "Natural hydrogen exploration by joint sparse inversion of geoph
 <p> Sihong Wu, Jiajia Sun, Xuqing Wu, Yueqin Huang, and Jiefu Chen, University of Houston; Ligang Lu, Shell Global Solutions; Xiaolong Wei, Stanford University; Rodolfo Christiansen, Leibniz Institute for Applied Geophysics.</p>
 
 
-
 ## Recommend Environment
 
 <p>Python 3.10.12 or later.</p>
@@ -17,7 +16,9 @@ Codes for study "Natural hydrogen exploration by joint sparse inversion of geoph
 <p>matplolib 3.9.0 or later.</p>
 
 ## Instructions
-<p>**Original datasets are not included in this repository to save space. In order to run joint inversion, please access them through [__] to get either <kbd>data.zip</kbd> or <kbd>data.tar.gz</kbd> and decompress them into the <kbd>./data/</kbd> directory.</p>
+<p>**Original datasets are not included in this repository to save space. In order to run joint inversion, please access them through Google Drive to get either <kbd>data.zip</kbd> or <kbd>data.tar.gz</kbd> and decompress them into the <kbd>./data/</kbd> directory.</p>
+
+[Download datesets from Google Drive](https://drive.google.com/drive/folders/1usK0o6gbAA6jCHSEyAhlu4rci7O-DMdP?usp=drive_link)
 
 ### I. Run joint inversion
 

@@ -95,7 +95,7 @@ CGlambda = 1e12  # weight for coupling term  # ~~~~~~~~~
 
 
 ## Load topography data
-df_topo = pd.read_csv("./data/Cali_topo_meter_m12315m12130_3840.csv", names=["easting", "northing", "topo"])  # TFMA: total field magnetic anomaly [nT]
+df_topo = pd.read_csv("./data/topography_data.csv", names=["easting", "northing", "topo"])  # TFMA: total field magnetic anomaly [nT]
 easting_topo_raw = np.array(df_topo['easting'])
 northing_topo_raw = np.array(df_topo['northing'])
 topo_raw = np.array(df_topo['topo'])
@@ -115,7 +115,7 @@ topo_xyz[:, 1] = northing_topo
 topo_xyz[:, 2] = topo
 
 ## Load gravity data
-df_grv = pd.read_csv("./data/Mitchell_2022_CLVF_Gravity-main/groundGrav_Combined_zEllipsoid_Full.csv")
+df_grv = pd.read_csv("./data/ground_gravity_data.csv")
 
 easting_grv_raw = np.array(df_grv['xWGS84_UTM10N'])
 northing_grv_raw = np.array(df_grv['yWGS84_UTM10N'])
@@ -142,7 +142,7 @@ data_grv[:, 2] = elevation_grv
 data_grv[:, 3] = (-1) * iso_grv  # Considering SimPEG is using a opposite +z direction (+z upwards in SimPEG)
 
 ## Load magnetic data
-df_mag = pd.read_csv("./data/mag_grid_meter_NAD27.csv")  # TFMA: total field magnetic anomaly [nT]
+df_mag = pd.read_csv("./data/aeromagnetic_data.csv")  # TFMA: total field magnetic anomaly [nT]
 
 easting_mag_raw = np.array(df_mag['easting'])
 northing_mag_raw = np.array(df_mag['northing'])

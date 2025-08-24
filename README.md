@@ -1,9 +1,13 @@
 # Natural_Hydrogen_YS
-Codes for study "Natural hydrogen exploration by joint sparse inversion of geophysical measurements and integrated geological interpretation"
+<p>This repository contains the geophysical measurements, joint inversion scripts, and output geophysical/quasi-geology models for the article "<em>Natural hydrogen exploration by joint sparse inversion of geophysical measurements and integrated geological interpretation</em>" published on <em>International Journal of Hydrogen Energy</em>.</p>
+
+<p>In this work, we developed a workflow to identify serpentinized ophiolite targets by 3D joint inversion of gravity and magnetic data followed by geology differentiation. These targets are interpreted to indicate the potential accumulation of natural hydrogen in the subsurface. </p>
+
+<p>The script <kbd>joint_inversion.py</kbd> allows one to conduct 3D joint inversion in Clear Lake volcanic field, and the jupyter notebook <kbd>plot_results.ipynb</kbd> allows one to plot the geophysical measurements, jointly inverted models, and quasi-geology models as the results of geology differentiation.</p>
 
 #### Authors:
-<p>*Yawei Su (ysu8@cougarnet.uh.edu, first author), University of Houston</p>
-<p> Sihong Wu, Jiajia Sun, Xuqing Wu, Yueqin Huang, and Jiefu Chen, University of Houston; Ligang Lu, Shell Global Solutions; Xiaolong Wei, Stanford University; Rodolfo Christiansen, Leibniz Institute for Applied Geophysics.</p>
+<p><b>*Yawei Su</b> (ysu8@cougarnet.uh.edu, first author), University of Houston</p>
+<p> Sihong Wu, Jiajia Sun, Xuqing Wu, Yueqin Huang, and Jiefu Chen, University of Houston; Ligang Lu, Shell Information Technology International, Inc.; Xiaolong Wei, Stanford University; Rodolfo Christiansen, Leibniz Institute for Applied Geophysics.</p>
 
 
 ## Recommend Environment
@@ -18,7 +22,7 @@ Codes for study "Natural hydrogen exploration by joint sparse inversion of geoph
 ## Instructions
 <p>**Original datasets are not included in this repository to save space. In order to run joint inversion, please access them through Google Drive to get either <kbd>data.zip</kbd> or <kbd>data.tar.gz</kbd> and decompress them into the <kbd>./data/</kbd> directory.</p>
 
-[Download datesets from Google Drive](https://drive.google.com/drive/folders/1usK0o6gbAA6jCHSEyAhlu4rci7O-DMdP?usp=drive_link)
+[Access datesets from Zenodo](https://zenodo.org/records/16066506)
 
 ### I. Run joint inversion
 

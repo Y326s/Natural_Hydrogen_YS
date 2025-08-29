@@ -20,7 +20,7 @@
 <p>matplolib 3.9.0 or later.</p>
 
 ## Instructions
-<p>**Original datasets are not included in this repository to save space. In order to run joint inversion, please access them through Google Drive to get either <kbd>data.zip</kbd> or <kbd>data.tar.gz</kbd> and decompress them into the <kbd>./data/</kbd> directory.</p>
+<p>**Original datasets are not included in this repository to save space. In order to run joint inversion, please access them through Zenodo and place them into the <kbd>./data/</kbd> directory.</p>
 
 [Access datesets from Zenodo](https://zenodo.org/records/16066506)
 
